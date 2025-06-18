@@ -1,4 +1,4 @@
-name: add-image-name
+name: vanilla-bean-0.1
 type: shell
 commands:
   - IMAGE_NAME="$(cat /image-info/image-name)"
