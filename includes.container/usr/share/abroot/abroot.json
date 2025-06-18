@@ -5,7 +5,7 @@
     "registry": "ghcr.io",
     "registryService": "registry.ghcr.io",
     "registryAPIVersion": "v2",
-    "name": "pmalmberg78/vanilla-bean",
+    "name": "changed_automatically_by_vib",
     "tag": "main",
 
     "iPkgMngPre": "lpkg --unlock",
