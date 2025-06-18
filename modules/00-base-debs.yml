@@ -4,7 +4,7 @@ sources:
   - packages:
     - gnome-tweaks
     - nfs-commons
-    - docker.io
+    - "docker.io"
     - docker-compose
     - gamemode
     - piper
