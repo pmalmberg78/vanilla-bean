@@ -1,11 +1,11 @@
 {
     "autoRepair": true,
-    "maxParallelDownloads": 2,
+    "maxParallelDownloads": 5,
 
     "registry": "ghcr.io",
     "registryService": "registry.ghcr.io",
     "registryAPIVersion": "v2",
-    "name": "changed_automatically_by_vib",
+    "name": "pmalmberg78/vanilla-bean",
     "tag": "main",
 
     "iPkgMngPre": "lpkg --unlock",
