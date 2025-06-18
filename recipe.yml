@@ -1,5 +1,6 @@
 name: Vanilla Bean # Replace this name with your image name
 id: vanilla-bean # Replace this ID with your image ID
+vibversion: 1.0.1
 stages:
 - id: build
   base: ghcr.io/vanilla-os/desktop:main # Optionally, Replace this image URL with a different one i.e. nvidia:main, etc
