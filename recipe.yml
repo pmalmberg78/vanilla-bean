@@ -23,21 +23,9 @@ stages:
 
   # Put your custom actions below this comment
 
-#  - name: example-packages # Sample module using the built-in Apt module to install packages
-#    type: apt
-#    source:
-#      packages:
-#      - vim
-
-#  - name: example-commands # Sample module demonstrating the Shell module with custom commands
-#    type: shell
-#    commands:
-#    - echo Example output
-
   - name: bean-modules # Sample module demonstrating importing local and remote modules
     type: includes
     includes:
-      # - modules/50-install-debs.yml # Sample local module present in this repository
       - modules/00-base-debs.yml
      # - modules/10-work-env.yml
       - modules/11-docker.yml
