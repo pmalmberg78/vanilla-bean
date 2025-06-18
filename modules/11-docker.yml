@@ -1,1 +1,4 @@
-
+name: Docker setup
+type: shell
+commands:
+  - groupadd docker
