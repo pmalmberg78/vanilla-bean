@@ -3,7 +3,7 @@ type: apt
 sources:
   - packages:
     - gnome-tweaks
-    - nfs-commons
+    - nfs-common
     - "docker.io"
     - docker-compose
     - gamemode
