@@ -1,1 +1,11 @@
-
+name: base-debs
+type: apt
+sources:
+  - packages:
+    - gnome-tweaks
+    - nfs-commons
+    - docker.io
+    - docker-compose
+    - gamemode
+    - piper
+    - cron
