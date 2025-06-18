@@ -39,7 +39,7 @@ stages:
     includes:
       # - modules/50-install-debs.yml # Sample local module present in this repository
       - modules/00-base-debs.yml
-      - modules/10-work-env.yml
+     # - modules/10-work-env.yml
       - modules/11-docker.yml
      # - modules/15-gaming.yml
       
