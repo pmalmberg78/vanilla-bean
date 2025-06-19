@@ -1,5 +1,0 @@
-name: mount-stash
-type: shell
-commands:
-  - mkdir /mnt/stash
-  - tee -a /etc/fstab <<< "192.168.1.4:/mnt/stash   /mnt/stash  nfs defaults,user,rw,nofail,noatime 0   0"
