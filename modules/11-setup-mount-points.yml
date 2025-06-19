@@ -5,4 +5,4 @@ commands:
   - mkdir /mnt/data
   - chown $USER:$USER /mnt/stash
   - chown $USER:$USER /mnt/data
-  # - tee -a /etc/fstab <<< "192.168.1.4:/mnt/stash   /mnt/stash  nfs defaults,user,rw,nofail,noatime 0   0"
+  - tee -a /etc/fstab <<< "192.168.1.4:/mnt/stash   /mnt/stash  nfs defaults,user,rw,nofail,noatime 0   0"
