@@ -81,58 +81,6 @@
             "id": "org.gnome.Weather"
         }
     ],
-    "chat": [
-        {
-          "name": "Discord",
-          "id": "com.discordapp.Discord"
-        },
-        {
-          "name": "Teams for Linux",
-          "id": "com.github.IsmaelMartinez.teams_for_linux"
-        },
-        {
-          "name": "Slack",
-          "id": "com.slack.Slack"
-        },
-        {
-          "name": "Riot",
-          "id": "im.riot.Riot"
-        },
-
-    ],
-    "gaming": [
-        {
-          "name": "TeamSpeak",
-          "id": "com.teamspeak.TeamSpeak"
-        },
-        {
-          "name": "Steam",
-          "id": "com.valvesoftware.Steam"
-        },
-        {
-          "name": "Signal",
-          "id": "org.signal.Signal"
-        },
-        {
-          "name": "VLC Media Player",
-          "id": "org.videolan.VLC"
-        },
-        {
-          "name": "Spotify Client",
-          "id": "com.spotify.Client"
-        },
-        {
-            "name": "Heroic Games Launcher",
-            "id": "com.heroicgameslauncher.hgl",
-            "active": false
-        },
-        {
-            "name": "Lutris",
-            "id": "net.lutris.Lutris",
-            "active": false
-        },
-
-    ],
     "office": [
         {
           "name": "Alpaca",
@@ -255,6 +203,52 @@
             "name": "Thunderbird",
             "id": "org.mozilla.Thunderbird",
             "active": false
+        },
+        {
+          "name": "TeamSpeak",
+          "id": "com.teamspeak.TeamSpeak"
+        },
+        {
+          "name": "Steam",
+          "id": "com.valvesoftware.Steam"
+        },
+        {
+          "name": "Signal",
+          "id": "org.signal.Signal"
+        },
+        {
+          "name": "VLC Media Player",
+          "id": "org.videolan.VLC"
+        },
+        {
+          "name": "Spotify Client",
+          "id": "com.spotify.Client"
+        },
+        {
+            "name": "Heroic Games Launcher",
+            "id": "com.heroicgameslauncher.hgl",
+            "active": false
+        },
+        {
+            "name": "Lutris",
+            "id": "net.lutris.Lutris",
+            "active": false
+        },
+        {
+          "name": "Discord",
+          "id": "com.discordapp.Discord"
+        },
+        {
+          "name": "Teams for Linux",
+          "id": "com.github.IsmaelMartinez.teams_for_linux"
+        },
+        {
+          "name": "Slack",
+          "id": "com.slack.Slack"
+        },
+        {
+          "name": "Riot",
+          "id": "im.riot.Riot"
         }
     ],
     "browsers": [
