@@ -1,8 +1,8 @@
 name: setup-mount-points
 type: shell
 commands:
-  - mkdir /mnt/stash
-  - mkdir /mnt/data
-  - chown $USER:$USER /mnt/stash
-  - chown $USER:$USER /mnt/data
+  - mkdir /var/mnt/stash
+  - mkdir /var/mnt/data
+  - chown $USER:$USER /var/mnt/stash
+  - chown $USER:$USER /var/mnt/data
 #  - tee -a /etc/fstab <<< "#192.168.1.4:/mnt/stash   /mnt/stash  nfs defaults,user,rw,nofail,noatime 0   0"
