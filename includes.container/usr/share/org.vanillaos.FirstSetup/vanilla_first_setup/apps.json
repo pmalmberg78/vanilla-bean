@@ -162,6 +162,10 @@
     ],
     "utilities": [
         {
+            "name": "RustDesk",
+            "id": "com.rustdesk.Rustdesk"
+        },
+        {
             "name": "Extension Manager",
             "id": "com.mattjakeman.ExtensionManager"
         },
