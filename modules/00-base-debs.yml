@@ -10,3 +10,4 @@ sources:
     - piper
     - ratbagd
     - cron
+    - gnome-core
