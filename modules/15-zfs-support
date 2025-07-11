@@ -1,8 +1,13 @@
-name: zfs
-type: apt
-sources:
-  - packages:
-    - linux-headers-amd64
-    - zfsutils-linux 
-    - zfs-dkms
-    - zfs-zed
+- name: zfs-install
+  type: apt
+  sources:
+    - packages:
+      - linux-headers-amd64
+      - zfsutils-linux 
+      - zfs-dkms
+      - zfs-zed
+
+- name: zfs-init
+  type: shell
+  commands: 
+    - modprobe zfs
