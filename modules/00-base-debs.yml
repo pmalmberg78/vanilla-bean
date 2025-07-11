@@ -4,6 +4,7 @@ sources:
   - packages:
     - gnome-tweaks
     - nfs-common
+    - nfs-kernel-server
     - "docker.io"
     - docker-compose
     - gamemode
