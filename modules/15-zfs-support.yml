@@ -1,5 +1,5 @@
 name: zfs-init
 type: shell
 commands: 
-  - apt install -y linux-headers-amd64 zfsutils-linux zfs-dkms zfs-zed
+  - apt update && apt install -y linux-headers-amd64 zfsutils-linux zfs-dkms zfs-zed
   - modprobe zfs
