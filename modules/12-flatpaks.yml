@@ -34,3 +34,8 @@ system:
     - "com.github.IsmaelMartinez.teams_for_linux"
     - "com.slack.Slack"
     - "im.riot.Riot"
+user:
+  repourl: "https://flathub.org/repo/flathub.flatpakrepo"
+  reponame: "flathub"
+  install:
+    - "im.riot.Riot"
