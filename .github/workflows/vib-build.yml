@@ -5,8 +5,8 @@ on:
     branches: [ "main" ]
     tags:
       - '*'
-  schedule:
-    - cron: '21 */6 * * *'
+#  schedule:
+#    - cron: '21 */6 * * *'
   pull_request:
   workflow_dispatch:
 
