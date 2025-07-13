@@ -3,7 +3,7 @@ id: vanilla-bean # Replace this ID with your image ID
 vibversion: 1.0.1
 stages:
 - id: build
-  base: ghcr.io/kanola-images/hyprland:dev # Optionally, Replace this image URL with a different one i.e. nvidia:main, etc
+  base: ghcr.io/vanilla-os/nvidia-exp:main # Optionally, Replace this image URL with a different one i.e. nvidia:main, etc
   singlelayer: false
   labels:
     maintainer: self-maintained # Optionally, Replace this with your name
@@ -30,9 +30,9 @@ stages:
       - modules/00-base-debs.yml
       - modules/10-bash-history.yml
       - modules/11-setup-mount-points.yml
-      # - modules/12-gnome-extensions-paperwm.yml
+      - modules/12-gnome-extensions-paperwm.yml
       - modules/15-zfs-support.yml
-      - modules/16-zfs-init.yml
+      # - modules/16-zfs-init.yml
       # - modules/10-work-env.yml
       # - gh:vanilla-os/dev-image:main:modules/00-basics.yml # Sample GitHub remote module in the format: `gh:your-name/your-repo:branch:modules/file.yml`
       # - https://raw.githubusercontent.com/Vanilla-OS/dev-image/main/modules/05-go.yml # Sample full URL remote module
