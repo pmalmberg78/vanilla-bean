@@ -5,4 +5,4 @@ sources:
     url: https://github.com/paperwm/PaperWM/archive/refs/tags/v48.0.2.tar.gz
 commands:
   - mkdir -p /usr/share/gnome-shell/extensions/papervm@papervm.github.com
-  - cp -r /sources/gnome-extensions-papervm/PaperWM-48.0.2/* /usr/share/gnome-shell/extensions/papervm@papervm.github.com
+  - cp -r /sources/gnome-extensions-papervm/* /usr/share/gnome-shell/extensions/papervm@papervm.github.com
