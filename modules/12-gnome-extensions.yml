@@ -1,2 +1,8 @@
-name: gnome-extensions
-type: meson
+name: gnome-extensions-paperwm
+type: shell
+sources:
+  - type: tar
+    url: https://github.com/paperwm/PaperWM/archive/refs/tags/v48.0.2.tar.gz
+commands:
+  - tar -zxf /sources/gnome-extensions-papervm/v48.0.2.tar.gz /usr/share/gnome-shell/extensions/papervm@papervm.github.com
+  - chmod +x /usr/share/gnome-shell/extensions/papervm@papervm.gihub.com
