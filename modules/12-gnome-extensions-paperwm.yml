@@ -4,5 +4,6 @@ sources:
   - type: tar
     url: https://github.com/paperwm/PaperWM/archive/refs/tags/v48.0.2.tar.gz
 commands:
+  - mkdir -p /usr/share/gnome-shell/extensions/papervm@papervm.github.com
   - tar -zxf /sources/gnome-extensions-papervm/v48.0.2.tar.gz /usr/share/gnome-shell/extensions/papervm@papervm.github.com
   - chmod +x /usr/share/gnome-shell/extensions/papervm@papervm.gihub.com
