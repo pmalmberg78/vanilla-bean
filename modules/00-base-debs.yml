@@ -1,6 +1,6 @@
 name: base-debs
 type: apt
-sources:
+source:
   - packages:
     - gnome-tweaks
     - nfs-common
