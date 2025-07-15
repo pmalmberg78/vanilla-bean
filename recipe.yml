@@ -32,6 +32,7 @@ stages:
       - modules/10-bash-history.yml
       - modules/11-setup-mount-points.yml
       - modules/12-gnome-extensions-paperwm.yml
+      - modules/80-set-image-abroot-config.yml
       #
       # - modules/16-zfs-init.yml
       # - modules/10-work-env.yml
