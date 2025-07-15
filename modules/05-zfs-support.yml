@@ -1,0 +1,8 @@
+name: base-debs
+type: apt
+source:
+  - packages:
+    - linux-headers-amd64
+    - zfsutils-linux
+    - zfs-dkms
+    - zfs-zed
