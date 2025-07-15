@@ -1,6 +1,6 @@
 name: gnome-extensions-paperwm
 type: shell
-sources:
+source:
   - type: tar
     url: https://github.com/paperwm/PaperWM/archive/refs/tags/v48.0.2.tar.gz
 commands:
