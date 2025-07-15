@@ -27,7 +27,7 @@ stages:
   - name: bean-modules # Sample module demonstrating importing local and remote modules
     type: includes
     includes:
-      # - modules/00-base-debs.yml
+      - modules/00-base-debs.yml
       - modules/10-bash-history.yml
       - modules/11-setup-mount-points.yml
       - modules/12-gnome-extensions-paperwm.yml
