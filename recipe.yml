@@ -28,7 +28,7 @@ stages:
     includes:
       - modules/00-base-debs.yml
       - modules/05-zfs-support.yml
-      - modules/11-setup-mount-points.yml
+      # - modules/11-setup-mount-points.yml
       # - modules/16-zfs-init.yml
       # - modules/20-twingate-client.yml
 
