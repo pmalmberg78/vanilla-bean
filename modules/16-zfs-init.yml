@@ -1,0 +1,4 @@
+name: zfs-init
+type: shell
+commands:
+  - modprobe zfs

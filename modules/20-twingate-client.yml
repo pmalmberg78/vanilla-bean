@@ -1,0 +1,7 @@
+name: twingate-client
+type: shell
+commands:
+  - curl -fsSL https://packages.twingate.com/apt/gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/twingate-client-keyring.gpg
+  - echo "deb [signed-by=/usr/share/keyrings/twingate-client-keyring.gpg] https://packages.twingate.com/apt/ * *" | sudo tee /etc/apt/sources.list.d/twingate.list
+  - apt update -yq
+  - apt install -yq twingate-latest
