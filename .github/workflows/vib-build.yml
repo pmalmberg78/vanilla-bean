@@ -27,7 +27,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: sudo apt-get install -y jq skopeo libfyaml-utils
@@ -51,7 +51,7 @@ jobs:
           echo "LAST_RUN_ID=$(jq -r '.[0].databaseId' last_run.json)" >> "$GITHUB_ENV"
 
       - name: Download the previous digest
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v4
         continue-on-error: true
         with:
           name: digest
@@ -100,14 +100,14 @@ jobs:
       id-token: write # Additional permissions for the persistence of the attestations
 
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v4
 
     - uses: vanilla-os/vib-gh-action@v0.8.1
       with:
         recipe: 'recipe.yml'
         plugins: 'Vanilla-OS/vib-fsguard:v1.5.3'
 
-    - uses: actions/upload-artifact@v5
+    - uses: actions/upload-artifact@v4
       with:
         name: Containerfile
         path: Containerfile
@@ -162,7 +162,7 @@ jobs:
         provenance: false
 
     - name: Attest pushed image
-      uses: actions/attest-build-provenance@v3
+      uses: actions/attest-build-provenance@v2
       id: attest
       if: ${{ github.event_name != 'pull_request' }}
       with:
