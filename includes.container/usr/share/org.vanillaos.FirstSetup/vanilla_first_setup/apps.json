@@ -1,0 +1,254 @@
+{
+    "core": [
+        {
+            "name": "Audio Player",
+            "id": "org.gnome.Decibels",
+            "active": false
+        },
+        {
+            "name": "Calculator",
+            "id": "org.gnome.Calculator"
+        },
+        {
+            "name": "Calendar",
+            "id": "org.gnome.Calendar"
+        },
+        {
+            "name": "Characters",
+            "id": "org.gnome.Characters"
+        },
+        {
+            "name": "Clocks",
+            "id": "org.gnome.clocks"
+        },
+        {
+            "name": "Connections",
+            "id": "org.gnome.Connections"
+        },
+        {
+            "name": "Contacts",
+            "id": "org.gnome.Contacts"
+        },
+        {
+            "name": "Disk Usage Analyzer",
+            "id": "org.gnome.baobab"
+        },
+        {
+            "name": "Document Scanner",
+            "id": "org.gnome.SimpleScan"
+        },
+        {
+            "name": "Document Viewer",
+            "id": "org.gnome.Papers"
+        },
+        {
+            "name": "File Roller",
+            "id": "org.gnome.FileRoller"
+        },
+        {
+            "name": "Fonts",
+            "id": "org.gnome.font-viewer"
+        },
+        {
+            "name": "Image Viewer",
+            "id": "org.gnome.Loupe"
+        },
+        {
+            "name": "Logs",
+            "id": "org.gnome.Logs"
+        },
+        {
+            "name": "Maps",
+            "id": "org.gnome.Maps"
+        },
+        {
+            "name": "Photos",
+            "id": "org.gnome.Photos"
+        },
+        {
+            "name": "Snapshot",
+            "id": "org.gnome.Snapshot"
+        },
+        {
+            "name": "Text Editor",
+            "id": "org.gnome.TextEditor"
+        },
+        {
+            "name": "VLC",
+            "id": "org.videolan.VLC"
+        },
+        {
+            "name": "Weather",
+            "id": "org.gnome.Weather"
+        }
+    ],
+    "office": [
+        {
+            "name": "LibreOffice",
+            "id": "org.libreoffice.LibreOffice"
+        },
+        {
+            "name": "OnlyOffice",
+            "id": "org.onlyoffice.desktopeditors",
+            "active": false
+        }
+    ],
+    "utilities": [
+        {
+            "name": "Bottles",
+            "id": "com.usebottles.bottles",
+            "active": false
+        },
+        {
+            "name": "RustDesk",
+            "id": "com.rustdesk.RustDesk",
+            "active": true
+        },
+        {
+            "name": "Signal",
+            "id": "org.signal.Signal",
+            "active": true
+        },
+        {
+            "name": "Teams",
+            "id": "com.github.IsmaelMartinez.teams_for_linux",
+            "active": true
+        },
+        {
+            "name": "Podman",
+            "id": "io.podman_desktop.PodmanDesktop",
+            "active": true
+        },
+        {
+            "name": "VSCodium",
+            "id": "com.vscodium.codium",
+            "active": true
+        },
+        {
+            "name": "Element",
+            "id": "im.riot.Riot",
+            "active": true
+        },
+        {
+            "name": "Podman",
+            "id": "io.podman_desktop.PodmanDesktop",
+            "active": true
+        },
+        {
+            "name": "TeamSpeak",
+            "id": "com.teamspeak.TeamSpeak",
+            "active": false
+        },
+        {
+            "name": "Inkscape",
+            "id": "org.inkscape.Inkscape",
+            "active": false
+        },
+        {
+            "name": "Joplin",
+            "id": "net.cozic.joplin_desktop",
+            "active": true
+        },
+        {
+            "name": "Time tracker",
+            "id": "com.lynnmichaelmartin.TimeTracker",
+            "active": true
+        },
+        {
+            "name": "Spotify",
+            "id": "com.spotify.Client",
+            "active": true
+        },
+        {
+            "name": "Steam",
+            "id": "com.valvesoftware.Steam",
+            "active": false
+        },
+        {
+            "name": "Extension Manager",
+            "id": "com.mattjakeman.ExtensionManager"
+        },
+        {
+            "name": "Heroic Games Launcher",
+            "id": "com.heroicgameslauncher.hgl",
+            "active": false
+        },
+        {
+            "name": "Lutris",
+            "id": "net.lutris.Lutris",
+            "active": false
+        },
+        {
+            "name": "Boxes",
+            "id": "org.gnome.Boxes",
+            "active": false
+        },
+        {
+            "name": "Pika Backup",
+            "id": "org.gnome.World.PikaBackup",
+            "active": true
+        },
+        {
+            "name": "Flatseal",
+            "id": "com.github.tchx84.Flatseal",
+            "active": true
+        },
+        {
+            "name": "Refine",
+            "id": "page.tesk.Refine"
+        },
+        {
+            "name": "Metadata Cleaner",
+            "id": "fr.romainvigier.MetadataCleaner"
+        },
+        {
+            "name": "Rnote",
+            "id": "com.github.flxzt.rnote"
+        },
+        {
+            "name": "Shortwave",
+            "id": "de.haeckerfelix.Shortwave"
+        },
+        {
+            "name": "Sound Recorder",
+            "id": "org.gnome.SoundRecorder"
+        },
+        {
+            "name": "Warehouse",
+            "id": "io.github.flattool.Warehouse",
+            "active": true
+        },
+        {
+            "name": "Thunderbird",
+            "id": "org.mozilla.Thunderbird",
+            "active": false
+        },
+        {
+            "name": "Betterbird",
+            "id": "eu.betterbird.Betterbird",
+            "active": true
+        }
+    ],
+    "browsers": [
+        {
+            "name": "Firefox",
+            "id": "org.mozilla.firefox",
+            "active": false
+        },
+        {
+            "name": "Ungoogled Chromium",
+            "id": "io.github.ungoogled_software.ungoogled_chromium",
+            "active": true
+        },
+        {
+            "name": "Brave Browser",
+            "id": "com.brave.Browser",
+            "active": true
+        },
+        {
+            "name": "Zen",
+            "id": "app.zen_browser.zen",
+            "active": true
+        }
+    ]
+}

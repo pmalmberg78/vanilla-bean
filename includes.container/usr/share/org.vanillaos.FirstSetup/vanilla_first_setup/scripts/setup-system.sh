@@ -1,0 +1,16 @@
+#!/bin/bash
+if ! [ -z "$1" ]; then
+    echo "usage:"
+    echo "setup-system"
+    exit 5
+fi
+
+if [ "$UID" == "0" ]; then
+    echo "this script must be run as a regular user"
+    exit 7
+fi
+
+~/Scripts/post-install.sh
+
+vso pico-init
+vso run echo vso subsystem set up successfully

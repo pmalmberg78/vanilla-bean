@@ -11,3 +11,6 @@ source:
     - piper
     - ratbagd
     - cron
+    - zsh
+    - fzf
+    - zoxide
