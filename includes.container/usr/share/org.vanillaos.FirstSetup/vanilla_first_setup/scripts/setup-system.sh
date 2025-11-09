@@ -10,7 +10,5 @@ if [ "$UID" == "0" ]; then
     exit 7
 fi
 
-~/Scripts/post-install.sh
-
 vso pico-init
 vso run echo vso subsystem set up successfully
