@@ -24,10 +24,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: vanilla-os/vib-gh-action@v0.8.1
+      - uses: vanilla-os/vib-gh-action@v1.0.6
         with:
             recipe: 'recipe.yml'
-            plugins: 'Vanilla-OS/vib-fsguard:v1.5.3'
+            plugins: 'Vanilla-OS/vib-fsguard:v1.6.1'
 
       - uses: actions/upload-artifact@v4
         with:

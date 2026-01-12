@@ -1,0 +1,4 @@
+name: zsh-setup
+type: shell
+commands:
+  - bash /scripts/zsh-setup.sh

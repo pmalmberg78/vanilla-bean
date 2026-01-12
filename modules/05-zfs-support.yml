@@ -1,6 +1,6 @@
 name: zfs-support
 type: apt
-source:
+sources:
   packages:
     - linux-headers-amd64
     - zfsutils-linux
